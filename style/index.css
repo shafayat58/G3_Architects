@@ -124,10 +124,40 @@ align-items: center;
 .features{
   color: #FF900E;
 }
+.facts{
+  align-items: center;
+}
+/* facs style */
+.facts_container{
+  
+  gap: 40px;
+}
+.fact_items{
+border: 2px solid #FF900E;
+width: 242px;
+height: 100px;
+padding: 45px 35px 60px;
+border-radius: 8px;
+/* align-items: center;
+justify-content: center; */
+text-align: center;
+}
+.items_number{
+  font-size: 1.8rem;
+}
+.items_tittle{
+  font-size: 1rem;
+}
 /* Responsive Media Query for mobile */
 @media screen and (max-width:576px) {
- .navbar,.nav_link {
+ .navbar,.nav_link,.teams {
   flex-direction: column;
+  }
+  .team_image_container{
+    grid-template-columns:repeat(1,1fr)
+     ;
+     margin-left: -20px;
   }
   
 }
+/* mediam size device */
