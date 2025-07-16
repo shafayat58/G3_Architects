@@ -82,4 +82,10 @@ border: none;
 .banner_image{
   width: 100%;
 }
-/* Responsive Media Query */
+/* Responsive Media Query for mobile */
+@media screen and (max-width:576px) {
+ .navbar,.nav_link {
+  flex-direction: column;
+  }
+  
+}
