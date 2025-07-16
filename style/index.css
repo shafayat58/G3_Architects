@@ -53,3 +53,33 @@ nav ul li a{
   max-width: 1440px;
   margin: 0 auto;
 }
+/* button style */
+.btn_primary{
+ color: white;
+max-width: 180px;
+padding: 21px 25px 20px;
+background-color:#FF900E ;
+border-radius: 8px;
+font-size: 1.25rem;
+border: none;
+}
+/* banner style */
+.banner_tittle{
+  font-size: 4rem;
+  font-weight: bold;
+  color: #131313;
+}
+.banner_description{
+  font-size: 1rem;
+  color: #727272;
+}
+.banner_content{
+  max-width: 850px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.banner_image{
+  width: 100%;
+}
+/* Responsive Media Query */
