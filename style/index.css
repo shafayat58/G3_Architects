@@ -9,3 +9,47 @@
   font-weight: 400;
   font-style: normal;
 }
+/* share style */
+ .display_flex{
+  display: flex;
+ }
+/* nav style */
+.navbar{
+  
+  justify-content: space-between;
+  align-items: center;
+ 
+  
+}
+.brand{
+  font-size: 3rem;
+  font-weight: bold;
+}
+.nav_items{
+  margin-right: 40px;
+  
+  
+}
+.nav_items{
+  list-style: none;
+  
+}
+nav ul li a{
+  text-decoration: none;
+}
+/* color dark2 */
+.text_gray{
+  color: #424242;
+
+}
+
+.text_light_gray{
+  color: #727272;
+}
+.bg_light{
+  background-color: rgba(255, 144, 14, 0.1);
+}
+.navbar, .banner{
+  max-width: 1440px;
+  margin: 0 auto;
+}
